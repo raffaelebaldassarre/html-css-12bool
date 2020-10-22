@@ -2,15 +2,12 @@ body [class*="col-"] {
   height: 200px;
   background: pink;
   border: 1px solid black;
+  position: relative;
 }
 
 body [class*="col-"] > [class*="col-"] {
   background-color: #f07f80;
   border: 1px solid white;
-}
-
-body [class*="col-"] {
-  position: relative;
 }
 
 span{
