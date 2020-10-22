@@ -1,4 +1,15 @@
 body [class*="col-"] {
+  height: 200px;
+  background: pink;
+  border: 1px solid black;
+}
+
+body [class*="col-"] > [class*="col-"] {
+  background-color: #f07f80;
+  border: 1px solid white;
+}
+
+body [class*="col-"] {
   position: relative;
 }
 
@@ -8,14 +19,4 @@ span{
   top: 50%;
   left: 50%;
   transform:translate(-50%, -50%);
-}
-
-.nested{
-  padding: 5px;
-}
-
-.nested [class*="col-"] {
-  height: 190px;
-  background-color: #f07f80;
-  border: 1px solid white;
 }
