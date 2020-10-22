@@ -1,0 +1,15 @@
+body [class*="col-"] {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.text{
+    background-image: url("../img/pngegg.png");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.offset{
+  margin-left: calc((100%/24) * 1)
+}
